@@ -18,6 +18,6 @@ class Index extends Controller
         $this->response()->write('hello wrold22');
     }
     function temp(){
-        $this->response()->write('two git commit');
+        $this->response()->write('3333 git commit');
     }
 }
