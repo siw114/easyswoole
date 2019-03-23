@@ -46,7 +46,7 @@ return [
         'charset'       => 'utf8mb4',
         'password'      => 'haoxin_gm',
         'database'      => 'hx_sgc_config',
-        'POOL_MAX_NUM'  => '200',
+        'POOL_MAX_NUM'  => '2000',
         'POOL_TIME_OUT' => '0.1',
     ],
     /*################ REDIS CONFIG ##################*/
@@ -54,7 +54,7 @@ return [
         'host'          => '127.0.0.1',
         'port'          => '6379',
         'auth'          => '',
-        'POOL_MAX_NUM'  => '500',
+        'POOL_MAX_NUM'  => '5000',
         'POOL_MIN_NUM'  => '5',
         'POOL_TIME_OUT' => '0.1',
     ],
